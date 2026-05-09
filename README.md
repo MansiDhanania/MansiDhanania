@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there, I'm Mansi 👋
 
 <!--
 **MansiDhanania/MansiDhanania** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -17,9 +17,7 @@ Here are some ideas to get you started:
 
 <div align="center">
 
-# hey, I'm Mansi 👋
-
-**AI Systems Engineer · LLM Orchestration · Multimodal AI · Montreal, Canada**
+**AI Systems Engineer · Applied ML · Multimodal AI · Montreal, Canada**
 
 [![Email](https://img.shields.io/badge/Email-mansidhanania%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mansidhanania@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mansidhanania-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mansidhanania)
