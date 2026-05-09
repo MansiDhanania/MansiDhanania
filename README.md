@@ -27,12 +27,12 @@ Here are some ideas to get you started:
 
 ---
 
-I'm a grad student at McGill finishing my M.Sc. in ECE — but mostly I spend my time building AI systems and trying to make them work in the real world.
+I'm a grad student at McGill finishing my M.Sc in ECSE. I spend my time building AI systems to solve real world problems.
 
-My thesis is a multimodal AI assistant for blind users, and that constraint — *it genuinely cannot fail, hallucinate directions, or crash mid-session* — has taught me more about building reliable LLM systems than anything else could. The whole backend is mine: multi-model orchestration, Redis session memory, Traefik infrastructure, MCP servers, n8n workflows. One backend, three frontends (web, iOS/Android, smart glasses), no changes needed.
+My thesis is a multimodal AI assistant for blind users. Developing a system that *genuinely cannot fail, hallucinate or crash mid-session* has taught me more about building reliable LLM pipelines than anything else could. I worked on the backend architecture: multi-model orchestration, Redis session memory, Traefik infrastructure, MCP servers, n8n workflows, routing logic. One backend, three frontends (web, iOS/Android, smart glasses), no changes needed.
 
-Outside the thesis I've been chasing two questions:
-- 🤔 **Can LLMs actually be creative?** Not "generates interesting text" — genuinely novel in a measurable sense. I spent a semester at Mila building a 4-agent RL loop to find out.
+Apart from my thesis, I've been chasing two questions:
+- 🤔 **Can LLMs actually be creative?** Not "generate interesting text" but capable of genuinely novel ideas in a measurable sense. I spent a semester at [Mila](https://mila.quebec/en) building a 4-agent RL-LLM loop to investigate this.
 - ⚙️ **How do you build agentic systems that don't fall apart?** Multi-model routing, memory that helps rather than bloats context, fallback cascades that fail loudly. The engineering here is underrated.
 
 ---
@@ -40,10 +40,10 @@ Outside the thesis I've been chasing two questions:
 ## 🔨 Things I've built
 
 **ShelfScout** *(M.Sc. thesis — backend private, [live here](https://cybersight.cim.mcgill.ca/))*
-Real-time AI shopping assistant for blind users. I own the entire backend — n8n orchestration across Claude, Gemini, LLaMA-4, Qwen3-VL and GPT-OSS; Redis session memory; Traefik + Docker; MCP servers. Frontend-agnostic by design: the same backend serves web, iOS/Android, and will talk to smart glasses. Benchmarked against Be My AI, Meta Ray-Ban glasses, and Gemini Live. Manuscript submitted to ACM 2026.
+Real-time AI assistant for blind and visually impaired users. This included n8n orchestration across Claude, Gemini, LLaMA-4, Qwen3-VL and GPT-OSS; Redis session memory; Traefik + Docker; MCP servers. Frontend-agnostic by design: the same backend serves web, iOS/Android, and will talk to smart glasses. Benchmarked against Be My AI, Meta Ray-Ban glasses, and Gemini Live.
 
 **[Novelty in LLM-Guided RL](https://github.com/MansiDhanania/Novelty-in-LLM-Guided-RL)**
-4-agent RL-LLM loop where agents propose physics hypotheses, write their own reward functions, and critique each other. Cosine-similarity rejection sampling forces genuine novelty over paraphrasing. V4 hit **3.6× higher** embedding distance than the baseline DQN. Whether that counts as creativity is still an open question.
+4-agent RL-LLM loop where agents propose physics hypotheses, write their own reward functions, and critique each other. Cosine-similarity rejection sampling forces genuine novelty over paraphrasing. My _novelty seeker agent_ hit **3.6× higher** embedding distance than the baseline DQN. Whether that counts as creativity is still an open question.
 
 **[OpenUBA](https://github.com/MansiDhanania/OpenUBA)**
 Open-source insider threat detection over 32M+ behavioural logs. Five algorithms compared, AUC 0.9923, SHAP/LIME explainability.
@@ -117,11 +117,11 @@ TL;DR: we tested whether transformer models are actually compositional. Ridge re
 
 - Wrapping up M.Sc. at McGill (May 2026)
 - Building a RAG + agentic AI project — watch this space 👀
-- Open to **AI Engineer** and **Applied ML Research** roles in Montreal or remote
+- Loking for **AI Engineer** and **Applied ML Research** roles
 
 ---
 
 <div align="center">
-  <i>open to coffee chats, collaborations, and interesting problems</i><br>
+  <i>always down for coffee chats, collaborations, and solving interesting problems</i><br>
   <a href="mailto:mansidhanania@gmail.com">mansidhanania@gmail.com</a>
 </div>
