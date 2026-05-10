@@ -39,7 +39,7 @@ Apart from my thesis, I've been chasing two questions:
 
 ## 🔨 Things I've built
 
-**ShelfScout** *(M.Sc. thesis — backend private, [live here](https://cybersight.cim.mcgill.ca/))*
+**ShelfScout** *(M.Sc. thesis — [backend architecture](https://github.com/MansiDhanania/ShelfScout), [live here](https://cybersight.cim.mcgill.ca/))*
 Real-time AI assistant for blind and visually impaired users. This included n8n orchestration across Claude, Gemini, LLaMA-4, Qwen3-VL and GPT-OSS; Redis session memory; Traefik + Docker; MCP servers. Frontend-agnostic by design: the same backend serves web, iOS/Android, and will talk to smart glasses. Benchmarked against Be My AI, Meta Ray-Ban glasses, and Gemini Live.
 
 **[Novelty in LLM-Guided RL](https://github.com/MansiDhanania/Novelty-in-LLM-Guided-RL)**
